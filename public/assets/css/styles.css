@@ -5,10 +5,6 @@ body {
   padding: 0;
 }
 
-.save-note {
-  display: none;
-}
-
 .icons i {
   margin-left: 15px;
   margin-right: 15px;
@@ -75,4 +71,10 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+}
+
+.save-note {
+  border: 1px;
+  color: white; 
+  font-size: 30px;
 }

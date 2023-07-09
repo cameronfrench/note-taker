@@ -19,15 +19,15 @@
     <nav class="navbar bg-info">
       <a class="navbar-brand text-light p-3" href="/">Note Taker </a>
       <div class="icons">
-        <i class="fas fa-save text-light save-note"></i>
+        <button class="save-note">Save</button>
         <i class="fas fa-plus text-light new-note"></i>
       </div>
     </nav>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4 list-container">
+        <div class="col-4 list-container" id="list-container">
           <div class="card">
-            <ul class="list-group"></ul>
+            <ul class="list-group" id="list-group"></ul>
           </div>
         </div>
         <div class="col-8">
